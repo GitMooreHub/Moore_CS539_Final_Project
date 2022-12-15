@@ -6,3 +6,5 @@ My data science portfolio to showcase my skills, primarily using Python based da
 [Text HERE](Link to repository goes here)
 ## Project 1 Description: 
 This project covers multiple blah blah using blah blah techniuqes.
+
+![alt text](https://github.com/GitMooreHub/Moore_Data_Science_Portfolio/blob/main/images/lh%20finishing%20detaielr.PNG)
