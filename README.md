@@ -11,9 +11,12 @@ This project covers multiple blah blah using blah blah techniuqes.
 
 
 Ideas for portfolio: 
-1. Classification type, 
-2. Regression type, 
-3. Clustering type, 
-4. Deep learning type, 
-5. NLP
-6. Computer Vision Project
+1) Project Ideas:
+  1. Classification type, 
+  2. Regression type, 
+  3. Clustering type, 
+  4. Deep learning type, 
+  5. NLP
+  6. Computer Vision Project
+ 
+ 2) Adding a theme!
