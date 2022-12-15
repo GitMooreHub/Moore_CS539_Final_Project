@@ -1,2 +1,2 @@
-# Moore_Data_Science_Portfolio
+# Moore Data Science Portfolio
 My data science portfolio to showcase my skills, primarily using Python based data analytic techniques.
