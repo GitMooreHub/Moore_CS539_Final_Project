@@ -25,7 +25,7 @@ Distribution plots
 
 Below is examples of some of the visuals taken from the analysis:
 
-First is the correlation plot 
+First is the correlation plot which cross matches all features with one another and shows their correlation score. This is a very good representation of the data in all as this shows where some exploration may start. Overall most features don't correlate but a couple do and this is a good basis to start on.
 
 ![](https://github.com/GitMooreHub/Moore_CS539_Final_Project/blob/main/images/Correlation-Plot.png)
 
