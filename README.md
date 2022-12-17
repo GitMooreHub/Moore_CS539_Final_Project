@@ -1,22 +1,12 @@
-# Moore Data Science Portfolio
-My data science portfolio to showcase my skills, primarily using Python based data analytic techniques.
+# CS 539 Final Project Overview
 
-# Project 1:
-## Project 1 Link: 
-[Text HERE](Link to repository goes here)
+# Classifying, Predicting and Analysing Ingot Density of a Tungsten-based Alloy from Trace Element Properties, Powder Characteristics, and Processing Parameters Data Using EDA, Random Forest, SVM and Decision Tree Models
+
 ## Project 1 Description: 
-This project covers multiple blah blah using blah blah techniuqes.
 
-![alt text](https://github.com/GitMooreHub/Moore_Data_Science_Portfolio/blob/main/images/lh%20finishing%20detaielr.PNG)
+The project to predict density of a tungsten based alloy using both regression type and classification based models as well as characterize trends and gather insight on fluence of features chosen had both insightful and shocking results. The challenge to predict ingot density, with a 70% cross-validated accuracy based on chemical properties, powder characteristics and basic processing parameters was seemingly successful using KNN, SVM, Random Forest and Decision Tree models. Among the successful models other insights derived included the influence of the time of year, trace elements outside primary elements and dataset complications.
 
 
-Ideas for portfolio: 
-1) Project Ideas:
-  1. Classification type, 
-  2. Regression type, 
-  3. Clustering type, 
-  4. Deep learning type, 
-  5. NLP
-  6. Computer Vision Project
- 
- 2) Adding a theme!
+![png](https://github.com/GitMooreHub/Moore_Data_Science_Portfolio/blob/main/images/lh%20finishing%20detaielr.PNG)
+
+
