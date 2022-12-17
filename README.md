@@ -1,6 +1,6 @@
 # CS 539 Final Project Overview
 
-## Classifying, Predicting and Analysing Ingot Density of a Tungsten-based Alloy from Trace Element Properties, Powder Characteristics, and Processing Parameters Data Using EDA, Random Forest, SVM and Decision Tree Models
+## Classification, Prediction and Analysis of Tungsten-based Alloy Densities from Trace Element Properties, Powder Characteristics, and Processing Parameters Data Using EDA, Random Forest, SVM and Decision Tree Models
 
 ### Project 1 Description: 
 
