@@ -40,3 +40,5 @@ Lastly, optimization was done through pipelines and gridsearches in order to fin
 Overall, models produced just above 80% accuracy, with SVM being highest out of all the models at ~83% accuracy in predictions which is hopeful for physical testing.
 
 See Full Analysis Document for more information.
+
+[RETURN TO PORTFOLIOS PAGE](https://gitmoorehub.github.io/Portfolio_Profiles/posts/2022/12/data-science-portfolio/)
