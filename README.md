@@ -11,14 +11,23 @@ This project was to predict density of a tungsten based alloy using both regress
 The dataset used is a collection of datasets from multiple departments that were merged together, they did not share a similar key format, so most of the merging was done manually. The dataset consisted of multiple float values as well as some all string columns. The dataset is 6105 records, not including the header, and 28 featuresfor one material called WK. The data was collected for the dates of June 2021, to June 2022. Features chosen are listed below.
 
 LotNumber: The lot number associated per bar
+
 PanelNumber: Furnace panel used
+
 BottleNumber: Bottle in furnace line used
+
 DateStamp: Date of density check
+
 BarDensity: Discrete bar densities for regression
+
 BarDensityA: Binned bar densities for classification
+
 FSSS: Average spherical diameter of powder (um)
+
 BulkDensity: Loose packing density of powder (g/in^3)
+
 TapDensity: Tapped packing density of powder (g/cm^3)
+
 *Trace Elements (ppm)* -> {Al, C, Ca, Co, Cr, Cu, Fe, K, La, Mo, Ni, P, Si, Ti, Zn, Zr}
 
 
