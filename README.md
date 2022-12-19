@@ -15,12 +15,19 @@ The dataset is a collection of datasets from multiple departments that were merg
 The project started off with some exploratory data analysis (EDA). The methods used during the EDA of the project included:
 
 Basic Statistics
+
 Histogram Plots
+
 Boxplots
+
 Scatterplots
+
 Correlation plots/Matrix
+
 PCA
+
 Stripplots
+
 Distribution plots
 
 Below is examples of some of the visuals taken from the analysis:
