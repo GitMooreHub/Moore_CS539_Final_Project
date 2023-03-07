@@ -58,4 +58,4 @@ See Full Analysis Document for more information.
 
 [VIEW WEBSITE](https://gitmoorehub.github.io/Moore_CS539_Final_Project/)
 
-[VIEW PROJECT NOTEBOOK](https://github.com/GitMooreHub/Moore_CS539_Final_Project/blob/main/process_notebook.ipynb)
+[VIEW FULL ANALYSIS DOCUMENT](https://github.com/GitMooreHub/Moore_CS539_Final_Project/blob/main/process_notebook.ipynb)
