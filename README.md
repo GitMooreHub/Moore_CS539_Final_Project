@@ -6,9 +6,9 @@
 
 The refractory metals industry, and many like it, are plagued with high cost and time-intensive testing. Some industries, such as the aluminum or iron metals industry, are less burdened by these restraints. The refractory metal I'll be observing cost nearly 150x more than aluminum per kilo and takes nearly 16x longer to process overall, from powder/raw to final machined product. This puts a heavy constraint on reseach and development overall. This also means that any scrap produced due to lack of quality checks or failed experiments take a much larger toll on the companies. Overall this leads to less data points, higher costs, and longer times between testing, while also keeping the high dimensionality of the complex processing environment.
 
-This project was to predict density of a tungsten based alloy using both regression type and classification based models as well as characterize trends and gather insight on fluence of the chosen features. The challenge to predict ingot density, with a 70% accuracy based on chemical properties, powder characteristics and basic processing parameters was seemingly successful using KNN, SVM, Random Forest and Decision Tree models. Among the successful models other insights derived included the influence of the time of year, trace elements outside primary elements and dataset complications. Needless to say, the project concluded with insightful and shocking results.
+The aim of this project was to predict the density of a tungsten-based alloy using regression and classification models, while also characterizing trends and gaining insights into the influence of the chosen features. The challenge to predict ingot density, with a 70% accuracy based on chemical properties, powder characteristics and basic processing parameters was seemingly successful using KNN, SVM, Random Forest and Decision Tree models. Among the successful models other insights derived included the influence of the time of year, trace elements outside primary elements and dataset complications. As a result, the project concluded with insightful and shocking results.
 
-The dataset used is a collection of datasets from multiple departments that were merged together, they did not share a similar key format, so most of the merging was done manually. The dataset consisted of multiple float values as well as some all string columns. The dataset is 6105 records, not including the header, and 28 featuresfor one material called WK. The data was collected for the dates of June 2021, to June 2022. Features chosen are listed below.
+The dataset used is a collection of datasets from multiple departments that were merged together, they did not share a similar key format, so most of the merging was done manually. The dataset consisted of multiple float values and some string columns. The dataset is 6105 records and 28 features for one material called WK. The data was collected for the dates of June 2021, to June 2022. Features chosen are listed below.
 
 - LotNumber: The lot number associated per bar
 - PanelNumber: Furnace panel used
@@ -35,10 +35,7 @@ The project started off with some exploratory data analysis (EDA). The methods u
 - Stripplots
 - Distribution plots
 
-\
-Below is examples of some of the visuals taken from the analysis:
-
-First is the correlation plot which cross matches all features with one another and shows their correlation score. This is a very good representation of the data in all as this shows where some exploration may start. Overall most features don't correlate but a couple do and this is a good basis to start on.
+Below are some examples of the visuals generated from the analysis. The first is the correlation plot, which compares all features with each other and displays their correlation scores. This plot provides a comprehensive view of the data and can help guide further exploration. While most features do not correlate, a few show some correlation, making this a good starting point for analysis.
 
 <!-- ![Correlation Plot](https://raw.githubusercontent.com/GitMooreHub/Moore_CS539_Final_Project/main/images/Correlation-Plot.png) -->
 <img src="https://raw.githubusercontent.com/GitMooreHub/Moore_CS539_Final_Project/main/images/Correlation-Plot.png" alt="Correlation Plot" width="75%" height ="75%">
