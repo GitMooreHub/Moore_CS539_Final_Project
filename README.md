@@ -60,7 +60,8 @@ First is the correlation plot which cross matches all features with one another 
 
 PCA was done in order to derive important features. Most PCA plots tested looked like the one below which was clustered and scattered randomly between PCs. The first two components only explained ~22% of the variance in the data. This means that the data on a whole is either unrepresentative of the target or is random.
 
-![PCA Plot 1](https://raw.githubusercontent.com/GitMooreHub/Moore_CS539_Final_Project/main/images/PCA1.png)
+<!-- ![PCA Plot 1](https://raw.githubusercontent.com/GitMooreHub/Moore_CS539_Final_Project/main/images/PCA1.png) -->
+<img src="https://raw.githubusercontent.com/GitMooreHub/Moore_CS539_Final_Project/main/images/PCA1.png" alt="PCA Plot 1" width="75%" height ="75%">
 
 Lastly, optimization was done through pipelines and gridsearches in order to find the best parameter pairs. Below is an example of the optimal K found for a KNN model. The optimization produced much better classification and prediction accuracy from the model. 
 
