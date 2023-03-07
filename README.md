@@ -59,11 +59,11 @@ First is the correlation plot which cross matches all features with one another 
 
 PCA was done in order to derive important features. Most PCA plots tested looked like the one below which was clustered and scattered randomly between PCs. The first two components only explained ~22% of the variance in the data. This means that the data on a whole is either unrepresentative of the target or is random.
 
-![PCA Plot 1](https://raw.githubusercontent.com/GitMooreHub/Moore_CS539_Final_Project/blob/main/images/PCA1.png)
+![PCA Plot 1](https://github.com/GitMooreHub/Moore_CS539_Final_Project/blob/main/images/PCA1.png)
 
 Lastly, optimization was done through pipelines and gridsearches in order to find the best parameter pairs. Below is an example of the optimal K found for a KNN model. The optimization produced much better classification and prediction accuracy from the model. 
 
-![KNN 'K' Evaluation](https://raw.githubusercontent.com/GitMooreHub/Moore_CS539_Final_Project/blob/main/images/KNN-K-Eval.png)
+![KNN 'K' Evaluation](https://github.com/GitMooreHub/Moore_CS539_Final_Project/blob/main/images/KNN-K-Eval.png)
 
 Overall, models produced just above 80% accuracy, with SVM being highest out of all the models at ~83% accuracy in predictions which is hopeful for physical testing.
 
