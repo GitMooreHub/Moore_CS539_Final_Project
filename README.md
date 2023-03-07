@@ -69,4 +69,4 @@ Overall, models produced just above 80% accuracy, with SVM being highest out of 
 
 See Full Analysis Document for more information.
 
-[RETURN TO PORTFOLIOS PAGE](https://gitmoorehub.github.io/Portfolio_Profiles/posts/2022/12/data-science-portfolio/)
+[VIEW ENTIRE PROJECT](https://gitmoorehub.github.io/Moore_CS539_Final_Project/)
