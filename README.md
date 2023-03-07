@@ -10,47 +10,32 @@ This project was to predict density of a tungsten based alloy using both regress
 
 The dataset used is a collection of datasets from multiple departments that were merged together, they did not share a similar key format, so most of the merging was done manually. The dataset consisted of multiple float values as well as some all string columns. The dataset is 6105 records, not including the header, and 28 featuresfor one material called WK. The data was collected for the dates of June 2021, to June 2022. Features chosen are listed below.
 
-LotNumber: The lot number associated per bar
-
-PanelNumber: Furnace panel used
-
-BottleNumber: Bottle in furnace line used
-
-DateStamp: Date of density check
-
-BarDensity: Discrete bar densities for regression
-
-BarDensityA: Binned bar densities for classification
-
-FSSS: Average spherical diameter of powder (um)
-
-BulkDensity: Loose packing density of powder (g/in^3)
-
-TapDensity: Tapped packing density of powder (g/cm^3)
-
-*Trace Elements (ppm)* -> {Al, C, Ca, Co, Cr, Cu, Fe, K, La, Mo, Ni, P, Si, Ti, Zn, Zr}
+- LotNumber: The lot number associated per bar
+- PanelNumber: Furnace panel used
+- BottleNumber: Bottle in furnace line used
+- DateStamp: Date of density check
+- BarDensity: Discrete bar densities for regression
+- BarDensityA: Binned bar densities for classification
+- FSSS: Average spherical diameter of powder (um)
+- BulkDensity: Loose packing density of powder (g/in^3)
+- TapDensity: Tapped packing density of powder (g/cm^3)
+- *Trace Elements (ppm)* -> {Al, C, Ca, Co, Cr, Cu, Fe, K, La, Mo, Ni, P, Si, Ti, Zn, Zr}
 
 
 ### Project: Full Analysis (sample)
 
 The project started off with some exploratory data analysis (EDA). The methods used during the EDA of the project included:
 
-Basic Statistics
+- Basic Statistics
+- Histogram Plots
+- Boxplots
+- Scatterplots
+- Correlation plots/Matrix
+- PCA
+- Stripplots
+- Distribution plots
 
-Histogram Plots
-
-Boxplots
-
-Scatterplots
-
-Correlation plots/Matrix
-
-PCA
-
-Stripplots
-
-Distribution plots
-
+\
 Below is examples of some of the visuals taken from the analysis:
 
 First is the correlation plot which cross matches all features with one another and shows their correlation score. This is a very good representation of the data in all as this shows where some exploration may start. Overall most features don't correlate but a couple do and this is a good basis to start on.
