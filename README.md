@@ -57,7 +57,7 @@ First is the correlation plot which cross matches all features with one another 
 
 ![Correlation Plot](https://github.com/GitMooreHub/Moore_CS539_Final_Project/blob/main/images/Correlation-Plot.png)
 
-![Correlation Plot2.2](https://raw.githubusercontent.com/GitMooreHub/Moore_CS539_Final_Project/main/images/Correlation-Plot.png)
+![Correlation Plot 2v2](https://raw.githubusercontent.com/GitMooreHub/Moore_CS539_Final_Project/main/images/Correlation-Plot.png)
 
 
 PCA was done in order to derive important features. Most PCA plots tested looked like the one below which was clustered and scattered randomly between PCs. The first two components only explained ~22% of the variance in the data. This means that the data on a whole is either unrepresentative of the target or is random.
