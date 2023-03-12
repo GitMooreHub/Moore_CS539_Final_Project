@@ -12,21 +12,21 @@ During EDA it became evident that the data was at best semi-chaotic in the resul
 
 Some key features to the dataset stood out however, some being C, K, Zn and BulkDensity, and FSSS as these showed some form of slight regression, either positive or negative. These are expected as the alloy is a K-based alloy that relies on doping of other elements to alloy it. We already know some of the embrittling agents, such as C, within the material that stops grain boundaries from expanding and thus lowering sinter density, so the observations here make sense which is a good validation of the work itself.
 
-<div>
+
 ### Correlation Plot
 
 The correlation plot, as shown below in Figure 1, showed that some elements correlated with one another which may represent a problem in our analysis equipment, which uses refracted waves of light in order to identify elements, and if the wavelength chosen to observe is slightly off of the element it may point to another element that may not actually exist. Notedly the Ni and Cr and Ni and Fe are both correlated moderately as well. The Ni and Cr doesn't make much sense but we traditionally use Ni and Fe together so it makes sense they both would show up. Also, Ca and Zr and Ca and Co correlate which is both surprising as there should be no reason for these too. However, we observe such limited amount of these in our materials anyway its perceived not to be a problem
 
 **Figure 1: Correlation Plot of all Features**
 
-<div>
+
 ### Principal Component Analysis
 
 Principal Component Analysis (PCA) showed what features were most important in the dataset as far as variance influence was concerned.The results themselves were confusing as it did not include what I was expecting it too, being FSSS, BulkDensity and TapDensity. Instead it showed that Date, Zn and some other elements were of most influence over the variance. This was unexpected but not surprising, as these factors can in fact greatly change density of the alloys during sintering. The breakdown of these components is shown in Appendix 1.1. This lead to some reductions in the dataset itself which elimited some of the features that did not seem to be of as much importance. It was surprising that the top 2 variables only accounted for ~22% of the variance in the dataset. The plot of the top 2 variables is shown in Figure 2 below. 
 
 **Figure 2: PCA scatterplot of the first 2 components**
 
-<div>
+
 ### Box Plots
 
 Multiple box plots were visually plotted for an understanding of the general distribution of the data. The LotNumber column shows that earlier lots in this dataset seemed to show higher densities, possibly pointing to some type of date-related phenomena. Interestingly enough, the DateStamp follows a similar pattern.
@@ -36,7 +36,7 @@ Most of the other chemistry based datapoints have too many outliers to accuratel
 
 **Figure 3: Box plot spread of features compared to target**
 
-<div>
+
 ### Scatter Plots
 
 Scatter plots were used to represent the general trend of the data. For the most part, it is underwhelming that we see a bunch of low slope regression lines. A slightly interesting observation is that there is a slightly positive slope in the K element, which is good because this is a K based alloy.
@@ -50,19 +50,19 @@ Next, I tried to expand and plot some columns of interest to get more an insight
 For FSSS it seems that majority of the 3 bin show up at 3.5 or less, although the regression line is ever slightly positive, the same exact pattern can be seen with Bulk Density and C.
 Lower Mo and Zn seems to show the opposite of this relationship. The lower the values is where the data shows higher density. K shows a neutral relationship, which is somewhat expected, up to a certain point, and shows that 100+ in the observed range possibly more beneficial. The upclose plots for this can be seen in Appendix 1.2.
 
-<div>
+
 ### Strip Plots
 Strip plots are another unique way to visualize densities of data for specific columns. It's similar to a scatter plot except it bins and visually displays the spread of each X variable. Below is a strip plot of an interested column, Bulk Density, where it shows some data point density of higher ingot density near slightly lower values of Bulk Density. This is very insightful for process development.
 
 **Figure 5: Strip plot of interested column, Bulk Density, vs target Bar Density**
 
-<div>
+
 ## Models Analysis
 
 
 The models chosen for the analysis were KNN, SVM, Random Forest, and Decision tree. They were chosen primarily to combat the randomness of the dataset and the spread of the data, as well as the limited categorical data, i.e. bias toward the class 2 and 1 densities with limited data for class 3.
 
-<div>
+
 ### KNN
 KNN proved to be a very useful model that reached a model accuracy of just over 80% with little mistakes in the confusion matrix. The model was hypertuned in order to accomodate for the spread of the data and looked for nearest neighbors up to 50 away. This is shown in Figure 6 below. The best fit resulted in 16 neighbors away which was surpising and good to hear.
 
@@ -77,7 +77,7 @@ The confusion matrix for KNN provided some insight into the limitation of the da
 | 2 | 60 | 689 | 7 |
 | 3 | 10 | 25 | 45 |
 
-<div>
+
 ### SVM
 
 SVM was chosen primarily because it was able to form different shapes for analysis as the shape of the trend of the data was uncertain. Four different kernels were tested being rbf, poly, sigmoid, and linear. The default settings of the models all had similar results showing that there is no immediate trend to the data itself. After optimization of the parameters tested over the 4 different models it was shown that rbf with a C value of 1, and a gamma of 0.1 had the best accuracy of just under 83%. The classification report showed that there was some confusion in the model predicting primarily toward the most common feature the class 2 density, which is somewhat expected with the distribution of the data being the way it is. This was corrected using optimization techniques used in SVM, the results of that change is shown below in Tables 2 and 3.
@@ -88,7 +88,7 @@ SVM was chosen primarily because it was able to form different shapes for analys
 
 There is a major improvement over the original classification report. The scores alone are not the greatest, however, they aren’t terrible either, with the recal of the class 3 density scores being the worst, but again, this is expected due to the major bias in data density. Overall, for what the model was handed, the results aren’t bad. 
 
-<div>
+
 ### Random Forest and Decision Tree
 
 Random Forest and Decision Tree were both chosen due to their statistical prowess allowing for more randomization which somewhat fit the dataset the best.The base model had ab accuracy just above 84% which is the best out of the previous models. The feature scores of the model showed that DateStamp and Zn and Ni were of most useful in the model. A new model was tested by removing the last 5 of the feature scores, but this did not result in a significant increase in accuracy.
@@ -117,7 +117,7 @@ Also surprisingly, is the elements that are repeatedly topping the analysis char
 | Al             | 0.015453|
 | TapDensity     | 0.011510|
 
-<div>
+
 # Results Summary and Future Prospects
 
 ## Result Summary and Future Prospect
@@ -135,7 +135,7 @@ Some questions that arose during the project are:
 - If I were to observe my data more, on a statistical level, could I re-engineer some of the data to be less, random, and more normalized.
 
 
-<div>
+
 # AppendixAppendix 1: Additional Tables
 
 **Appendix Table 1.1: PCA Breakdown**
