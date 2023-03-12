@@ -74,6 +74,7 @@ KNN proved to be a very useful model that reached a model accuracy of just over 
 The confusion matrix for KNN provided some insight into the limitation of the dataset, namely the bias toward the lower class of the target, classes 1 and 2, having many more data points than class 3. Thai lead to confusion of over 50% of class 3 density compared to nearly 30% or less in the other 2 classes. This could also be due to random data.
 
 **Table 1: Confusion Matrix of KNN Model**
+
 |  | 1 | 2 | 3 |
 | 1 | 157 | 88 | 6 |
 | 2 | 60 | 689 | 7 |
@@ -98,44 +99,49 @@ Also surprisingly, is the elements that are repeatedly topping the analysis char
 
 
 **Table 4: Feature Scores used in the Random Tree Model**
-Feature:	   Weight:
-DateStamp      0.183327
-Zn             0.109681
-Ni             0.082128
-Cu             0.076788
-La             0.068842
-Co             0.068332
-Ti             0.066008
-BulkDensity    0.064476
-Mo             0.061358
-Ca             0.049551
-PanelNumber    0.038351
-P              0.032236
-LotNumber      0.026099
-K              0.023302
-Cr             0.022559
-Al             0.015453
-TapDensity     0.011510
+
+| Feature:	   | Weight:|
+| DateStamp      | 0.183327|
+| Zn             | 0.109681|
+| Ni             | 0.082128|
+| Cu             | 0.076788|
+| La             | 0.068842|
+| Co             | 0.068332|
+| Ti             | 0.066008|
+| BulkDensity    | 0.064476|
+| Mo             | 0.061358|
+| Ca             | 0.049551|
+| PanelNumber    | 0.038351|
+| P              | 0.032236|
+| LotNumber      | 0.026099|
+| K              | 0.023302|
+| Cr             | 0.022559|
+| Al             | 0.015453|
+| TapDensity     | 0.011510|
 
 
+# Results Summary and Future Prospects
 
+## Result Summary and Future Prospect
 
-
-Results Summary and Future Prospects
-
-Result Summary and Future Prospect
 Overall, I am happy with where I've started with this project and ended with this project. Primarily the knowledge I've gained in both ML and the dataset itself. I believe I have successfully answered my question and have a few models that will provide a bases for physical testing in the future.
 The major take-aways of this project so far has been that there are some chemistry links that I need to look into. The general trends between Zn and Cr and other trace elements seem too coincidental, and are likely standard errors in the testing. Reforming this could help give better and more accurate chemistry results. Furthermore, it was evident that Bulk Density and Tap Density were not as important in this project as I was suspecting they would be, although they did provide some minor regression-type behavior, which means perhaps our current standard is good for the application. 
+
 The Datestamp feature came up as an important feature which was surprising but not unexpected. In Maine the weather hits some major extremes, dry in the winter, humid in the summer. It is known that these types of swings may produce an impact on the properties of our materials but it was never speculated how big of an impact it has. This will be explored further as this could have major upsides to production during the change in the weather.
+
 My next steps would be to implement attribute testing in the models in order to form theoretical predictions of parameters entered. I also plan to expand on the project and encorperate other variables such as pressing pressure, ingot geometry, mold type, and other processing specifications in the hopes that I can bolster the models and find some certainty in the influence of density. Further beyond that I hope to expand into the territory of the paper mentioned above and target mechanical properties of our materials, including the several other alloys that we make. The alloy chosen is a difficult one and has very little information on it, so a paper on this would likely be successful.
+
 Some questions that arose during the project are:
-If I were to clear out outliers and low-weighted features (based on model representation) would my EDA Analysis show different results?
-If I were to observe my data more, on a statistical level, could I re-engineer some of the data to be less, random, and more normalized.
+
+- If I were to clear out outliers and low-weighted features (based on model representation) would my EDA Analysis show different results?
+- If I were to observe my data more, on a statistical level, could I re-engineer some of the data to be less, random, and more normalized.
 
 
 
-AppendixAppendix 1: Additional Tables
-Appendix Table 1.1: PCA Breakdown
+# AppendixAppendix 1: Additional Tables
+
+**Appendix Table 1.1: PCA Breakdown**
+
    LotNumber  PanelNumber  BottleNumber  DateStamp      FSSS  BulkDensity  \
 0   -0.397612    -0.074879     -0.016696  -0.381717 -0.326004    -0.128134   
 1   -0.055555    -0.059524      0.000965  -0.037382 -0.111802    -0.091070   
