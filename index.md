@@ -98,24 +98,24 @@ Also surprisingly, is the elements that are repeatedly topping the analysis char
 
 **Table 4: Feature Scores used in the Random Tree Model**
 
-| Feature:	   | Weight:|
-| DateStamp      | 0.183327|
-| Zn             | 0.109681|
-| Ni             | 0.082128|
-| Cu             | 0.076788|
-| La             | 0.068842|
-| Co             | 0.068332|
-| Ti             | 0.066008|
-| BulkDensity    | 0.064476|
-| Mo             | 0.061358|
-| Ca             | 0.049551|
-| PanelNumber    | 0.038351|
-| P              | 0.032236|
-| LotNumber      | 0.026099|
-| K              | 0.023302|
-| Cr             | 0.022559|
-| Al             | 0.015453|
-| TapDensity     | 0.011510|
+| Feature: | Weight:|
+| DateStamp | 0.183327|
+| Zn | 0.109681|
+| Ni | 0.082128|
+| Cu | 0.076788|
+| La | 0.068842|
+| Co | 0.068332|
+| Ti | 0.066008|
+| BulkDensity | 0.064476|
+| Mo | 0.061358|
+| Ca | 0.049551|
+| PanelNumber | 0.038351|
+| P | 0.032236|
+| LotNumber | 0.026099|
+| K | 0.023302|
+| Cr | 0.022559|
+| Al | 0.015453|
+| TapDensity | 0.011510|
 
 
 # Results Summary and Future Prospects
