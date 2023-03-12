@@ -1,24 +1,14 @@
 ---
-title: Classification, Prediction and Analysis of Tungsten-based Alloy Densities from Trace Element Properties, Powder Characteristics, and Processing Parameters Data Using EDA, Random Forest, SVM and Decision Tree Models
 layout: default
 ---
 
-<center><h2> Table of Contents </h2></center>
+<center><h2><b> Classification, Prediction and Analysis of Tungsten-based Alloy Densities from Trace Element Properties, Powder Characteristics, and Processing Parameters Data Using EDA, Random Forest, SVM and Decision Tree Models </b></h2></center>
 
-| Full Analysis	| 3 |
-| EDA Analysis |	3 |
-| Models Analysis |	10 |
-| Results Summary and Future Prospects |	15 |
-| Appendix 1: Additional Tables |	16 |
-| Appendix Table 1.1: PCA Breakdown	|16 |
-| Appendix 2: Additional Figures	| 19 |
-
-\
 ---
 
 # Full Analysis
 
-\
+
 ## EDA Analysis
 
 During EDA it became evident that the data was at best semi-chaotic in the results I obtained. All of the variables chosen for this project seemed to balance out equally during visual evaluation within the box plots, distribution plots, histograms and scatter plots. The number of outliers seemed to be overwhelming as well, potentially pointing to errors in the dataset itself.
@@ -32,7 +22,7 @@ The correlation plot, as shown below in Figure 1, showed that some elements corr
 **Figure 1: Correlation Plot of all Features**
 
 
-\
+
 ### Principal Component Analysis
 
 Principal Component Analysis (PCA) showed what features were most important in the dataset as far as variance influence was concerned.The results themselves were confusing as it did not include what I was expecting it too, being FSSS, BulkDensity and TapDensity. Instead it showed that Date, Zn and some other elements were of most influence over the variance. This was unexpected but not surprising, as these factors can in fact greatly change density of the alloys during sintering. The breakdown of these components is shown in Appendix 1.1. This lead to some reductions in the dataset itself which elimited some of the features that did not seem to be of as much importance. It was surprising that the top 2 variables only accounted for ~22% of the variance in the dataset. The plot of the top 2 variables is shown in Figure 2 below. 
